@@ -75,3 +75,19 @@ blockquote footer:before {
   content: "\2014";
   margin-right: 3px;
 }
+
+/* table */
+.post table.tr-caption-container{min-width:100%;width:auto;margin:0 auto;border:0;position:relative}
+.post table.tr-caption-container tbody{border:0}
+.post table.tr-caption-container tr td{background-color:transparent;border:0;padding:0;position:relative}
+.post table.tr-caption-container tr:nth-child(2n+1) td, .Blog table.tr-caption-container tr:nth-child(2n+1) td:first-child{border:0}
+.post table.tr-caption-container a, .Blog table.tr-caption-container img{display:block}
+.post table.tr-caption-container .tr-caption{position:relative;bottom:0;right:0;display:block;font-size:10px;color:inherit;background-color:transparent;margin-top:5px;padding:5px 15px;border:0;border-radius:10px 0 10px 0}
+.post table{min-width:70%;margin:0 auto;border:0px solid rgba(0,0,0,.05);border-bottom:1px solid rgba(0,0,0,.05);border-radius:3px;overflow:hidden;font-size:16px;}
+.post table th{background-color:#505050;color:#fff;padding:10px;border-right:1px solid rgba(255,255,255,.25)}
+.post table th:last-child, .Blog table tr td:last-child, .Blog table tr:nth-child(2n) td:last-child{border-right:0}
+.post table tr:nth-child(2n+1) td:first-child{border-left:1px solid rgba(0,0,0,.05)}
+.post table tr:nth-child(2n+1) td{border-right:1px solid rgba(0,0,0,.05)}
+.post table td{padding:10px 15px;border:0;vertical-align:middle;}
+.post table tr:nth-child(2n) td{background-color:rgba(0,0,0,.05);border-right:1px solid rgba(0,0,0,.06)}
+.post .table{display:block;overflow-y:hidden;overflow-x:auto;border-radius:3px}
