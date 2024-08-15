@@ -1,53 +1,112 @@
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="images/favicon.png">
-	<title>DeeneLife New Update!</title>
-<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-<style>
-    img {
-  border-radius: 15px;
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png">
+    <title>DeeneLife New Update!</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-.maintenance .content .button {
-    margin-top: 0px!important;
-}  
-.button {
-    font-size: 15px!important;
-}
-    
-</style>
+        .maintenance {
+            text-align: center;
+        }
 
+        .container {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            max-width: 500px;
+            width: 90%;
+        }
+
+        img {
+            border-radius: 15px;
+        }
+
+        h2 {
+            color: green;
+            font-size: 24px;
+            margin: 20px 0;
+        }
+
+        .button {
+            font-size: 16px;
+            color: white;
+            background-color: green;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: darkgreen;
+        }
+
+        p {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .content p {
+            margin-top: 20px;
+        }
+    </style>
 </head>
+
 <body class="animsition" onmousedown="return false" onselectstart="return false">
 
-	<!-- maintenance -->
-	<div class="maintenance segments-page">
-	<br><br>
-		<div class="container">
-			<div class="content b-shadow">
-				<img src="https://boimate.com/jkkniu/deenelifeplay.jpg" alt="End" width="130" height="130"><br><br>
-<h2><span style="color: green;font-family: Poppins;font-size:18px"><strong>DeeneLife App New Update Available!!!</strong></span><h2> </span>
+    <!-- maintenance -->
+    <div class="maintenance segments-page">
+        <div class="container">
+            <div class="content b-shadow">
+                <img src="https://boimate.com/jkkniu/deenelifeplay.jpg" alt="End" width="130" height="130"><br><br>
+                <h2><strong>DeeneLife App New Update Available!!!</strong></h2>
 
-<p style="font-family: Poppins;font-size:18px">	<a href="https://play.google.com/store/apps/details?id=com.deenelife.app" target="_blank"><button class="button"><b>Click here to Update</b></button></a> </p>
+                <p>
+                    <a href="https://play.google.com/store/apps/details?id=com.deenelife.app" target="_blank">
+                        <button class="button"><b>Click here to Update</b></button>
+                    </a>
+                </p>
 
-<p style="font-family: Poppins;font-size:18px"><b> <u>What's new in this update: (V 2.0)</u></b><br>
-✨Big Update v2.0!<br>
--New App UI Design (Minimal and Fast Load),<br>
--Added Easy Search Option at Top,<br>
--Added Search History,<br>
--Added Clear Cache option,<br>
--Added New Report and Feedback Option,<br>
--Fixed Issues and Bugs,<br>
-and more improvement will come in future update, Inshallah!</p>
-<br>
+                <p><b><u>What's new in this update: (V 2.0)</u></b><br>
+                    ✨Big Update v2.0!<br>
+                    - New App UI Design (Minimal and Fast Load),<br>
+                    - Added Easy Search Option at Top,<br>
+                    - Added Search History,<br>
+                    - Added Clear Cache option,<br>
+                    - Added New Report and Feedback Option,<br>
+                    - Fixed Issues and Bugs,<br>
+                    and more improvement will come in future update, Inshallah!
+                </p>
+            </div>
+        </div>
 
-
-			</div>
-		</div>
-
-	</div>
+    </div>
 </body>
+
 </html>
